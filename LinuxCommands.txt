@@ -1,0 +1,65 @@
+// File Operations
+ls: list
+mkdir <name>: make directory (folder)
+cd: change directory
+touch <name>: create an empty file
+nano <filename>: text editor used to edit text inside file/ can also be used to create file
+cat <filename>: read the file
+rm <filename>: remove any file
+rm *: delete all the files from that folder
+ls -l: check the type and permissions of the file
+cd ..: go back to the directory
+cd ../..: go back to more than one directory
+rmdir <dirname>: remove empty directory
+rm -r <dirname>: remove any directory (-r stands for recursive)
+man: manual (shows details about any linux command)
+clear: clear the terminal screen
+cp <filename> <location>: copy and paste any file to any location
+mv <filename> <location>: move and paste any file to any location
+mv <filename> <newfilename>: rename file
+
+
+// Installing Packages in Linux
+sudo apt update && sudo apt upgrade: used to update all the packages
+sudo apt install <package>: installing packages (sudo = superuser)
+sudo apt purge: used to delete any package
+
+
+// SSH
+ssh: remote login into any server 
+ssh <username@ipaddress>: connect any instance (if public)
+ssh -i <pathtothekeyfile> <username@ipaddress>: connect any instance (if protected)
+exit: go back to local terminal
+
+
+// History command
+history: used to check which commands you have ran
+
+
+// Get the path command
+pwd: present working directory (gives entire path)
+whoami: used to check which is the current user
+sudo su: change user to the root user
+
+
+// Check location of a file/package
+which <packagename>: use to check where the package is stored in the machine
+
+
+// Date Command
+date: current date
+
+
+// Vim Editor
+vi <filename>: edit any file in vim editor
+esc key: to go to vim command panel
+wq: saving and exiting
+qa!: exiting without saving
+
+
+// Networking Commands
+ping <URL>: check if the connection is established or not
+ip address: check your if address
+nslookup <URL>: get details about any domain
+curl <URL>: get contents of the website(example: html code)
+wget <URL>: get the package/image/video/etc
